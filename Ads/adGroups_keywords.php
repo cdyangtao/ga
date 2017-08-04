@@ -1,4 +1,5 @@
-<?php return array (
+<?php 
+return array (
   0 => 
   array (
     'userStatus' => 'ENABLED',
