@@ -1,0 +1,68 @@
+<div class="container-fluid main-nav clearfix">
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li>
+                <a href="<?php echo U('/index/index','',false);?>" <?php if(__ACTION__=='/index/index'):?>class="current"<?php endif;?>><span aria-hidden="true" class="se7en-home"></span>Dashboard</a>
+              </li>
+              
+             
+             <!-- 广告系列 -->
+              <li class="dropdown"><a data-toggle="dropdown" <?php if(__URL__=='/campaign'):?>class="current"<?php endif;?> href="jsvascript:;">
+                <span aria-hidden="true" class="se7en-feed"></span>广告系列<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="<?php echo U('/campaign/index','',false);?>" <?php if(__ACTION__=='/campaign/index'):?>class="current"<?php endif;?>>所有广告系列</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo U('/campaign/add','',false);?>" <?php if(__ACTION__=='/campaign/add'):?>class="current"<?php endif;?> >添加广告系列</a>
+                  </li>                  
+                </ul>
+              </li>
+
+              <!-- 广告组 -->
+              <li class="dropdown"><a data-toggle="dropdown" <?php if(__URL__=='/group'):?>class="current"<?php endif;?> href="jsvascript:;">
+                <span aria-hidden="true" class="se7en-feed"></span>广告组<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                 <li>
+                    <a href="<?php echo U('/group/index','',false);?>" <?php if(__ACTION__=='/group/index'):?>class="current"<?php endif;?>>所有广告组</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo U('/group/add','',false);?>" <?php if(__ACTION__=='/group/add'):?>class="current"<?php endif;?> >添加广告组</a>
+                  </li>     
+                </ul>
+              </li>
+
+             <!-- 瞎扯 -->
+              <li class="dropdown"><a data-toggle="dropdown" <?php if(__URL__=='/group'):?>class="current"<?php endif;?> href="jsvascript:;">
+                <span aria-hidden="true" class="se7en-feed"></span>报告<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                 <li>
+                    <a href="<?php echo U('/group/index','',false);?>" <?php if(__ACTION__=='/group/index'):?>class="current"<?php endif;?>>所有广告组</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo U('/group/add','',false);?>" <?php if(__ACTION__=='/group/add'):?>class="current"<?php endif;?> >添加广告组</a>
+                  </li>     
+                </ul>
+              </li>
+
+              <li class="dropdown"><a data-toggle="dropdown" <?php if(__URL__=='/group'):?>class="current"<?php endif;?> href="jsvascript:;">
+                <span aria-hidden="true" class="se7en-feed"></span>区域资金<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                 <li>
+                    <a href="<?php echo U('/group/index','',false);?>" <?php if(__ACTION__=='/group/index'):?>class="current"<?php endif;?>>所有广告组</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo U('/group/add','',false);?>" <?php if(__ACTION__=='/group/add'):?>class="current"<?php endif;?> >添加广告组</a>
+                  </li>     
+                </ul>
+              </li>
+
+              <li><a href="<?php echo U('/account/index','',false);?>" <?php if(__ACTION__=='/group/add'):?>class="current"<?php endif;?>>
+                <span aria-hidden="true" class="se7en-tables"></span>设置子账户</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+
+        

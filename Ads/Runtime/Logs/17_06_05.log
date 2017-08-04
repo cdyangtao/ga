@@ -1,0 +1,18 @@
+[ 2017-06-05T14:06:17+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2017-06-05T14:06:17+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2017-06-05T14:12:46+08:00 ] 127.0.0.1 /account/set
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-05T14:12:47+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2017-06-05T14:16:27+08:00 ] 127.0.0.1 /account/index
+NOTIC: 建议使用I方法替代_session
+
+[ 2017-06-05T14:38:06+08:00 ] 127.0.0.1 /group/index/campaignId/779166390
+NOTIC: 建议使用I方法替代_get
+
